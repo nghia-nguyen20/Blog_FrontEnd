@@ -15,7 +15,7 @@ function App() {
   return (
     <Router>
       <div className="App">
-        test
+        nhanh 1
         <Header />
         <Switch>
           <Route exact path="/">
