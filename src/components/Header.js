@@ -26,12 +26,6 @@ class Header extends Component {
         console.log(Math.random());
         return(
             <div className="header">
-                <p>chi tiet hinh anh: {this.props.title}</p>
-                <img src={this.props.image} alt=''/>
-                <p>number: {this.state.number}</p>
-                <button className="btn btn-primary" onClick={this.increaseNumber}>tang</button>
-                <button className="btn btn-info" onClick={this.decreaseNumber}>giam</button>
-                <p>name: {this.state.name}</p>
                 <nav className="navbar navbar-expand-lg navbar-light bg-light">
                     <div className="container-fluid">
                     <Link to="/" className="navbar-brand">Home</Link>

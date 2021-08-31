@@ -15,8 +15,8 @@ function App() {
   return (
     <Router>
       <div className="App">
-        test updating ...
         <Header />
+        
         <Switch>
           <Route exact path="/">
             <Home />
